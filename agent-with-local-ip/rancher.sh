@@ -16,7 +16,7 @@ fi
 # Variable Setup
 echo "# Setting Variables"
 HOST_URL=$1
-AGENT_VERSION="v0.11.0"
+AGENT_VERSION="v1.0.2"
 LOCAL_IP=`ifconfig eth0 | awk '/inet addr/{print substr($2,6)}'`
 STATUS=255
 SLEEP=5
